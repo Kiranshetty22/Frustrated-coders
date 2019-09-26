@@ -2,7 +2,8 @@
 import java.util.Scanner;
 public class Main
 {
-public static void main(String[] args) {
+public static void main(String[] args) 
+{
 int n,temp;
 int s=0;
 Scanner sc = new Scanner(System.in);
@@ -42,7 +43,7 @@ while(i!=n)
 }
 for( i=0;i<n;i++){
    if(c[i]==0){
-       s+=a[i];
+       s=s+a[i];
    }
 }
 System.out.println(s);
